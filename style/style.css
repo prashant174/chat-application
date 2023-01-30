@@ -5,6 +5,7 @@
     height: 50px;
 }
 body{
+    height: 100vh;
     background-image: linear-gradient(rgb(255,255,255), rgb(202, 150, 202), rgb(102, 102, 216));
 }
 
@@ -13,6 +14,9 @@ body{
     background-color: rgb(247, 70, 70);
     margin: auto;
     height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
 }
 .message{
 background-color: grey;
@@ -31,4 +35,23 @@ clear: both;
     float: right;
     clear: both;
     
+}
+#send-container{
+    display: block;
+    margin: auto;
+   text-align: center;
+   max-width: 985px;
+width: 100%;
+}
+#messageInp{
+    width: 92%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
 }
